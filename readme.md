@@ -11,3 +11,8 @@ Simply add the following code immediately before your page's `</body>` tag.
 ```html
 <iframe id="mygov-bar" src="//presidential-innovation-fellows.github.com/mygov-bar/mygov-bar.html" style="bottom:0;left:0;position:fixed;height:50px;width:100%;border:none;">Alt Text</iframe>
 ```
+
+Example
+-------
+
+http://presidential-innovation-fellows.github.com/mygov-bar/
