@@ -2,3 +2,4 @@ server: true
 auto: true
 pygments: true
 safe: true
+exclude: ['proxy']
