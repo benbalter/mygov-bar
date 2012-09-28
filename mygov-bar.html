@@ -1,15 +1,39 @@
+---
+---
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="assets/css/core.css" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>MyGov Bar</title>
+    <style>
+      h1 { display: inline; }
+      #search { width: 200px; height: 50px; display: inline; }
+    </style>
   </head>
   <body>
   
     <h1>MyGov</h1>
     
+    <input id="search" type="search" placeholder="Search..." />
+    <input type="button" id="search-button" value="Go" />
     
-    <script type="text/template" id="foo">
+    <div id="loginout"></div>
     
+    <script type="text/template" id="search-result-template">
+{% include templates/search-result.html %}
     </script>
+    
+    <script type="text/template" id="notification-template">
+{% include templates/notification.html %}
+    </script>
+    
+    <script type="text/template" id="login-template">
+{% include templates/login.html %}    
+    </script>
+    
+    <script type="text/template" id="logout-template">
+{% include templates/logout.html %}    
+    </script>    
     
     <script src="mygov-bar.js"></script>
   
