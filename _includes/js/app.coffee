@@ -1,5 +1,6 @@
 jQuery ->
 
+  #Notifications
   class Notification extends Backbone.Model
   
   
@@ -7,6 +8,8 @@ jQuery ->
   
     model: Notification
   
+  
+  #Tags
   class Tag extends Backbone.Model
   
   
