@@ -1,8 +1,17 @@
 <html>
   <head>
+    <style>
+      p { margin-top: 50px; }
+      .bookmarklet { border:1px solid black; padding: 5px; background: #ddd; color: black; text-decoration: none; font-size: 13px; margin-left: 200px;  }
+    </style>
   </head>
   <body>
   
+    <h1>Example MyGov Bar Usage</h1>
+  
+    <p><em>Drag this bookmarklet to your bookmark bar to add the MyGov bar to any page</em></p>
+    <p><a class="bookmarklet" href='javascript:(function(){var e;e=document.createElement("iframe"),e.style.bottom=0,e.style.left=0,e.style.position="fixed",e.style.height="50px",e.style.width="100%",e.style.border="none",e.id="mygov-bar",e.src="//presidential-innovation-fellows.github.com/mygov-bar/mygov-bar.html",document.body.appendChild(e)}).call(this);'>MyGov Bar</a></p>
+    
     <!-- 
       
       MyGov bar embed code 
